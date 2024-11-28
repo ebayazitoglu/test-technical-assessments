@@ -1,5 +1,5 @@
 
-Added my read me to the SwiftAutomation read me
+Added my read me file under the Automation-SwiftUI read me
 
 # Test Technical Assessments
 
