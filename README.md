@@ -1,3 +1,6 @@
+
+Added my read me to the SwiftAutomation read me
+
 # Test Technical Assessments
 
 This repository contains a sample mobile application implemented for both iOS and Android platforms. It demonstrates various UI components and serves as a foundation for testing various UI components and scenarios.
