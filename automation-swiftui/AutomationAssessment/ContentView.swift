@@ -20,6 +20,8 @@ struct ContentView: View {
             Text("My BBC")
                 .font(.largeTitle)
                 .accessibilityIdentifier(AutomationIdentifiers.homeTitle.rawValue)
+                
+                
             Spacer()
             Button {
                 isLoading = true
@@ -98,8 +100,10 @@ struct ContentView: View {
                 .background(.red)
                 .foregroundStyle(.white)
                 .clipShape(Capsule())
+                
         }
         .accessibilityIdentifier(AutomationIdentifiers.homeFooterButton.rawValue)
+        
     }
 
     var loadingView: some View {
@@ -107,6 +111,7 @@ struct ContentView: View {
             .progressViewStyle(.circular)
             .controlSize(.extraLarge)
             .background(Color.white.opacity(0.25))
+            
     }
 
     var body: some View {
@@ -124,6 +129,7 @@ struct ContentView: View {
                         .accessibilityLabel("BBC logo")
                         .accessibility(removeTraits: .isImage)
                         .accessibilityAddTraits(.isHeader)
+                        
                 }
             })
             .navigationDestination(for: Tag.self) { tag in

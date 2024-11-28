@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21C5941C2CF3D51E0099B559 /* TestingPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C5941B2CF3D51E0099B559 /* TestingPageModel.swift */; };
 		6A9F7EEF2CD0E39500A70348 /* AutomationAssessmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9F7EEE2CD0E39500A70348 /* AutomationAssessmentApp.swift */; };
 		6A9F7EF12CD0E39500A70348 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9F7EF02CD0E39500A70348 /* ContentView.swift */; };
 		6A9F7EF32CD0E39700A70348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A9F7EF22CD0E39700A70348 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21C5941B2CF3D51E0099B559 /* TestingPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingPageModel.swift; sourceTree = "<group>"; };
 		6A9F7EEB2CD0E39500A70348 /* AutomationAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutomationAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A9F7EEE2CD0E39500A70348 /* AutomationAssessmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationAssessmentApp.swift; sourceTree = "<group>"; };
 		6A9F7EF02CD0E39500A70348 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			children = (
 				6A9F7F092CD0E39700A70348 /* AutomationAssessmentUITests.swift */,
 				6A9F7F0B2CD0E39700A70348 /* AutomationAssessmentUITestsLaunchTests.swift */,
+				21C5941B2CF3D51E0099B559 /* TestingPageModel.swift */,
 			);
 			path = AutomationAssessmentUITests;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			files = (
 				6A9F7F0A2CD0E39700A70348 /* AutomationAssessmentUITests.swift in Sources */,
 				6A9F7F0C2CD0E39700A70348 /* AutomationAssessmentUITestsLaunchTests.swift in Sources */,
+				21C5941C2CF3D51E0099B559 /* TestingPageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
